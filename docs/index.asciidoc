@@ -176,6 +176,11 @@ with logstash. Otherwise use the provided `regexes.yaml` file.
 You can find the latest version of this here:
 <https://github.com/ua-parser/uap-core/blob/master/regexes.yaml>
 
+[NOTE]
+--
+`regexes.yaml` is not directly accessible in the Logstash directory structure. Instead, the `regexes.yaml` is bundled within the useragent plugin JAR file.
+--
+
 [id="plugins-{type}s-{plugin}-source"]
 ===== `source` 
 
